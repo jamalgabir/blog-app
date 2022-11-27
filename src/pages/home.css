@@ -1,0 +1,41 @@
+.postimg{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.post{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    
+    
+}
+.post:nth-child(2n+1){
+    flex-direction: row-reverse;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.desc{
+    margin-top: 20px;
+}
+.title{
+    margin-top: 10px;
+}
+.single-post{
+    display: flex;
+}
+.single-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}

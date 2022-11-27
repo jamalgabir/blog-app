@@ -1,0 +1,15 @@
+footer{
+    margin-top: 20px;
+    background-color: rgb(248, 240, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(248, 240, 228);;
+}
+
+
+
+.footerlogo{
+    width: 120px;
+    
+}
