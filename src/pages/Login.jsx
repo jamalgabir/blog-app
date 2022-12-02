@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./login.css"
+import "./login.css";
+
 const Login = () => {
   return (
     <div className='logincontainer'>
         <h2>Login</h2>
-        
         <form className="login">
             <input required type="text" placeholder='Email' />
-            
             <input required type="password" placeholder='Password' />
             <p style={{color: "red"}}>Error message</p>
             <button className='btn' type='submit'>Login</button>

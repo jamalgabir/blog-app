@@ -2,7 +2,9 @@ import React from 'react'
 
 const Write = () => {
   return (
-    <div>Write</div>
+    <div>
+      <input className='input' type="text" placeholder='Title' />
+    </div>
   )
 }
 
