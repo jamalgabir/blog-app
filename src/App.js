@@ -1,8 +1,8 @@
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
+  
+  
   Outlet,
 } from "react-router-dom";
 import Footer from "./Component/Footer";
@@ -13,6 +13,8 @@ import Register from "./pages/Register";
 import SinglePost from "./pages/SinglePost";
 import Write from "./pages/Write";
 import "./app.css";
+import Scroll from "./Component/Scroll";
+import Suggested, { SuggestLayout } from "./pages/Suggested";
 const Layout = () =>{
   return (
     <>
@@ -56,8 +58,25 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="app">
+       <div>
+       <div className="suggetNav">
+          <h4>sugget post</h4>
+        </div>
+        <Scroll>
+          <Suggested/>
+        </Scroll>
+       </div>
       <div className="container">
         <RouterProvider router={router}/>
+      </div>
+      <div>
+        <div className="suggetNav">
+          <h4>sugget post</h4>
+        </div>
+        
+        <Scroll>
+        <Suggested/>
+      </Scroll>
       </div>
     </div>
   );

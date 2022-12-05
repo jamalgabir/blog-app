@@ -8,6 +8,7 @@ const Home = () => {
   
 
   return (
+    <>
     <Scroll>
     <div >
       <div className="posts">
@@ -32,6 +33,7 @@ const Home = () => {
       </div>
     </div>
     </Scroll>
+    </>
   )
 }
 

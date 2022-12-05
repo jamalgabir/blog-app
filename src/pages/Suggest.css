@@ -1,0 +1,14 @@
+.suggest-img{
+    width: 200px;
+    height: 200px;
+    
+}
+.suggest-container{
+    top: 10px;
+    left: 5px;
+    
+}
+.suggetNav{
+    top: 20px;
+    border: 1px solid gray;
+}
