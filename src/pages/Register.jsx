@@ -8,10 +8,10 @@ const Register = () => {
         <h2>Register</h2>
         
         <form className="login">
-        <input required type="text" placeholder='username' />
-            <input required type="text" placeholder='Email' />
+        <input className='in' required type="text" placeholder='username' />
+            <input className='in' required type="text" placeholder='Email' />
             
-            <input required type="password" placeholder='Password' />
+            <input className='in' required type="password" placeholder='Password' />
             <p style={{color: "red"}}>Error message</p>
             <button className='btn' type='submit'>Register</button>
             <span style={{border: "none"}}> have account <Link to="/login">Login</Link></span>
