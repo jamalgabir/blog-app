@@ -58,18 +58,18 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="app">
-       <div>
+       {/* <div>
        <div className="suggetNav">
           <h4>sugget post</h4>
         </div>
         <Scroll>
           <Suggested/>
         </Scroll>
-       </div>
+       </div> */}
       <div className="container">
         <RouterProvider router={router}/>
       </div>
-      <div>
+      {/* <div>
         <div className="suggetNav">
           <h4>sugget post</h4>
         </div>
@@ -77,7 +77,7 @@ function App() {
         <Scroll>
         <Suggested/>
       </Scroll>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -4,8 +4,8 @@ import "./Write.css";
 
 const Write = () => {
   const [input, setInput] = useState({
-    title:"no title",
-    description:"no description yet!"
+    title:"No title",
+    description:"no description"
 
   })
 
