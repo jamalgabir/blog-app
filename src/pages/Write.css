@@ -1,6 +1,8 @@
 .write-container{
+    height: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    
 }
 .content{
     display: flex;
@@ -8,16 +10,11 @@
     flex-direction: column;
     gap: 20px;
     border: 1px solid gray;
+    border-bottom-right-radius: 20px;
 
 }
 
-.post-content{
-    border:  1px solid gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 .content-info{
     text-align: center;
 }

@@ -22,13 +22,7 @@ const Write = () => {
         <input type="text" name='title' onChange={handleChange} className="write-input" placeholder='post title' />
         <input type="text" name='description' onChange={handleChange} className="write-input" placeholder='post description' />
       </div>
-      <div className="post-content">
-        <img src="https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2147483647&v=beta&t=J3kUMZwIphc90TFKH5oOO9Sa9K59fimgJf-s_okU3zs" alt="jama" className="content-img" />
-        <div className="content-info">
-          <h4 className="cont-titl">{input.title}</h4>
-          <div className="cont-desc">{input.description}</div>
-        </div>
-      </div>
+      
       
     </div>
   )
